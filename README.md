@@ -2,7 +2,7 @@
 This program converts audio metadata from their translated/transliterated versions back to the original. It works by looking up the album name on MusicBrainz and fetching the data from the original release. It converts the file name, track title, contributing artists and the album to their original versions. 
 
 ## How to use
-Dump all the files and folders you want processed into the _Input_ folder. Run main.py.
+Dump all the files and folders you want processed into the _Input_ folder. Run main.py. Make sure you have the dependencies musicbrainzngs and mutagen installed.
 
 The program will automatically process all files if it finds a matching album with a matching artist on MusicBrainz. If the program fails to find your album, you can enter either the album name or the MusicBrainz ID of the release. Find the album on MusicBrainz and copy the UUID after https://musicbrainz.org/release/.
 

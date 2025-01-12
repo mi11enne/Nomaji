@@ -225,6 +225,8 @@ def manual_input():
         return
 
 def main():
+    input("Place files and folders to be processed in the Input folder. Press any key to continue.")
+
     script_directory = os.path.dirname(os.path.abspath(__file__))
     folder = os.path.join(script_directory, "Input")
 
@@ -326,5 +328,6 @@ def main():
 
             break
 
+    input("End of program. Press any key to exit.")       
 if __name__ == "__main__":
     main()

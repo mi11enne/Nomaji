@@ -2,9 +2,9 @@
 This program converts audio metadata from their translated/transliterated versions back to the original. It works by looking up the album name on MusicBrainz and fetching the data from the original release. It converts the file name, track title, contributing artists and the album to their original versions. 
 
 ## How to use
-Dump all the files and folders you want processed into the _Input_ folder. Run main.py. Make sure you have the dependencies musicbrainzngs and mutagen installed.
+Dump all the files and folders you want processed into the _Input_ folder in the same directory where _Nomaji.exe_ is located. The program will take a while to initialize.
 
-The program will automatically process all files if it finds a matching album with a matching artist on MusicBrainz. If the program fails to find your album, you can enter either the album name or the MusicBrainz ID of the release. Find the album on MusicBrainz and copy the UUID after https://musicbrainz.org/release/.
+Follow the instructions in the terminal. The program will automatically process all files if it finds a matching album with a matching artist on MusicBrainz. If the program fails to find your album, you can enter either the release name or the MusicBrainz ID of the release. Find the album on MusicBrainz and copy the UUID after https://musicbrainz.org/release/.
 
 ## Notes
 The program will scan through all subfolders and sort the files by the album name. The files will be modified while retaining the original file structure. Folder names will not be changed.
